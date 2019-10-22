@@ -1,0 +1,244 @@
+* {
+    font-family: 'Fjalla One' , sans-serif;
+}
+body {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.wraper {
+    width: 1170px;
+}
+.header {
+    margin-top: 30px;
+}
+.home {
+    margin-top: 180px;
+}
+.home-header {
+    font-weight: 600;
+    font-size: 67px;
+    margin-bottom: 37px;
+}
+.home-text {
+    color:#bbd8ff;
+    margin: 0;
+    line-height: 1.75em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-btn {
+    border-radius: 28px;
+    font-size: 18px;
+    padding-left: 38px;
+    padding-right: 50px;
+    margin-bottom: 274px;
+    margin-top: 65px;
+    width: 220px;
+    background-color: #25365d;
+}
+.download-container {
+    margin-top: 355px;
+    padding-top: 85px;
+    margin-bottom: 145px;
+}
+.white-title {
+    width: 1320px;
+    font-size: 190px;
+    line-height: 1;
+    letter-spacing: 6px;
+    left: -25px;
+    top: -25px;
+    z-index: -1;
+}
+.download-title {
+    letter-spacing: 2px;
+    color: #25365d;
+}
+.download-text {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 710px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.download-item {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.download-item::before{
+    content: url(../img/icons/checked.png);
+    margin-right: 20px;
+    padding-top: 4px; 
+}
+.download-btn {
+    border-radius: 28px;
+    font-size: 18px;
+    padding-left: 65px;
+    padding-right: 60px;
+    width: 220px;
+    margin-top: 66px;
+    background-color: #25365d;
+}
+.download-bg {
+    top: 95px;
+    right: -210px;
+}
+.info-wraper {
+    max-width: 2000px;
+    margin-bottom: 155px;
+    height: 600px;
+}
+.info-wraper img {
+    width: 100%;
+}
+.info-container-wraper {
+    padding-top: 147px;
+}
+.info-text-container {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-item {
+    margin-bottom: 84px;
+}
+.info-headr {
+    color: #25365d;
+}
+.features-wraper {
+    margin-bottom: 175px;
+}
+.features-title {
+    margin-bottom: 150px;
+    color: #25365d;
+}
+.features-items {
+    height: 490px;
+    background-image: url(../img/Macbook-features.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.features-items {
+    height: 490px;
+}
+.top-item {
+    margin-top: 35px;
+}
+.bottom-item {
+    margin-top: 140px;
+}
+.circle-one {
+    top: 126px;
+}
+.circle-two {
+    top: 254px;
+    left: 40px;
+}
+.circle-three {
+    top: 126px;
+    left: 281px;
+}
+.circle-four {
+    top: 283px;
+    left: 293px;
+}
+.circle-center {
+    width: 65px;
+    height: 65px;
+    top: 200px;
+    left: 162px;
+    background-color: #25365d;
+}
+.circle-center img {
+    height: 20px;
+}
+.line-one,
+.line-two,
+.line-three,
+.line-four {
+border-bottom: dashed;
+}
+.line-one {
+    width: 266px;
+    top: -16px;
+    left: -244px;
+    transform: rotate(15deg);
+}
+.line-two {
+    width: 293px;
+    top: 62px;
+    left: -270px;
+    transform: rotate(-17deg);
+}
+.line-three {
+    width: 300px;
+    top: -16px;
+    left: 25px;
+    transform: rotate(-13deg);
+}
+.line-four {
+    width: 293px;
+    top: 47px;
+    left: 18px;
+    transform: rotate(11deg);
+}
+.plans-title {
+    color: #25365d;
+}
+.plans-container {
+    padding-top: 150px;
+}
+.plans-text { 
+    margin:60px 0 80px 0;
+}
+.plan-item {
+    width: 360px;
+    padding: 36px 0 36px 0;
+}
+.plan-item-title {
+    color: #25365d;
+}
+.plan-price {
+     margin: 60px 0 60px 0;
+     color:#25365d;
+}
+.plan-price::before {
+    content: "$";
+    font-size: 30px;
+    font-weight: bold;
+    color:#25365d;
+}
+.plan-price::after {
+    content: " /mon";
+    font-size: 24px;
+    font-weight: normal;
+    color:#25365d;
+}
+.coll-img {
+    margin: 72px 0 30px 0;
+}
+.coll-text {
+    margin:  30px 0 75px 0;
+}
+.coll-contacts {
+    margin-bottom: 117px;
+}
+.mail-img,
+.phone-img {
+    height: 27px;
+}
+.footer-container {
+    padding-top: 150px;
+}
+.footer-title {
+    color:#25365d;
+}
+.footer-text {
+    margin:60px 0 75px 0;
+}
+.footer-btn { 
+    margin-bottom: 670px;
+    background-color: #25365d;
+
+}
