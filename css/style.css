@@ -3,10 +3,9 @@
 }
 body {
     max-width: 2000px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
     background-image: url(../img/bg.png);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .wraper {
@@ -32,25 +31,21 @@ body {
 .home-btn {
     border-radius: 28px;
     font-size: 18px;
-    padding-left: 38px;
-    padding-right: 50px;
-    margin-bottom: 274px;
+    padding: 0 50px 274px 38px;
     margin-top: 65px;
     width: 220px;
     background-color: #25365d;
 }
 .download-container {
-    margin-top: 355px;
+    margin: 355px 0 145px 0;
     padding-top: 85px;
-    margin-bottom: 145px;
 }
 .white-title {
     width: 1320px;
     font-size: 190px;
     line-height: 1;
     letter-spacing: 6px;
-    left: -25px;
-    top: -25px;
+    inset: -25px 0 0 -25px;
     z-index: -1;
 }
 .download-title {
@@ -58,8 +53,7 @@ body {
     color: #25365d;
 }
 .download-text {
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin: 60px 0 50px 0;
     width: 710px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -75,15 +69,13 @@ body {
 .download-btn {
     border-radius: 28px;
     font-size: 18px;
-    padding-left: 65px;
-    padding-right: 60px;
+    padding: 0 60px 0 65px;
     width: 220px;
     margin-top: 66px;
     background-color: #25365d;
 }
 .download-bg {
-    top: 95px;
-    right: -210px;
+    inset: 95px -210px 0 0;
 }
 .info-wraper {
     max-width: 2000px;
@@ -132,22 +124,20 @@ body {
     top: 126px;
 }
 .circle-two {
-    top: 254px;
-    left: 40px;
+    inset: 254px 0 0 40px;
 }
 .circle-three {
+    inset: 126px 0 0 281px;
     top: 126px;
     left: 281px;
 }
 .circle-four {
-    top: 283px;
-    left: 293px;
+    inset: 283px 0 0 293px;
 }
 .circle-center {
     width: 65px;
     height: 65px;
-    top: 200px;
-    left: 162px;
+    inset: 200px 0 0 162px;
     background-color: #25365d;
 }
 .circle-center img {
@@ -161,8 +151,7 @@ border-bottom: dashed;
 }
 .line-one {
     width: 266px;
-    top: -16px;
-    left: -244px;
+    inset: -16px 0 0 -244px;
     transform: rotate(15deg);
 }
 .line-two {
